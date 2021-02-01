@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fragment xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:id="@+id/fragment"
-    android:name="br.com.progiv.cannongame.MainActivityFragment"
-    tools:layout="@layout/fragment_main_activity"
-    >
+    tools:context=".MainActivityFragment">
+
+    <br.com.progiv.cannongame.CannonView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cannonView"
+        />
 
 </fragment>
